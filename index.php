@@ -12,7 +12,7 @@
     //Yahoo ルビ振りAPI
     define('API', 'http://jlp.yahooapis.jp/FuriganaService/V1/furigana?');
     $api = array(
-        'appid'     => 'YAHOO_ADD_ID',
+        'appid'     => 'YAHOO_APP_ID',
         'grade'     => 1,
         'sentence'  => $word = urlencode($_GET['word'])
     );
